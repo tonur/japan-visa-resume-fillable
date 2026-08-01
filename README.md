@@ -15,7 +15,7 @@ The Python script in this repository was generated with the assistance of an AI 
 ## How to Use
 
 ### Option 1: Use the Ready-to-Fill PDF (Simplest)
-1. Download [Working_Holiday_Visa_Resume_Fillable.pdf](./Working_Holiday_Visa_Resume_Fillable.pdf) from this repository.
+1. Download [Working_Holiday_Visa_Resume_Fillable.pdf](https://github.com/tonur/japan-visa-resume-fillable/raw/main/Working_Holiday_Visa_Resume_Fillable.pdf)) from this repository.
 2. Open the file in **Adobe Acrobat**, **Preview** (macOS), **Edge**, **Chrome**, or any PDF editor.
 3. Fill in your information directly into the input boxes.
 4. Save and print/export the completed PDF for your visa application.
