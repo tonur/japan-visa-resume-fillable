@@ -1,9 +1,21 @@
 [project]
-name = "japan-visa-resume-fillable"
+name = "japan-visa-fillable-templates"
 version = "0.1.0"
-description = "An interactive, fillable PDF resume (履歴書) template for the Japan Working Holiday Visa application. Generated with Python (ReportLab) for clean formatting and easy digital filling."
+description = "Interactive fillable PDF templates for Japan Working Holiday Visa applications."
 readme = "README.md"
-requires-python = ">=3.14"
+requires-python = ">=3.9"
 dependencies = [
-    "reportlab>=5.0.0",
+    "reportlab>=4.0.0",
 ]
+
+[project.scripts]
+generate-resume = "japan_visa_fillables.resume:create_unbold_cv"
+generate-outline = "japan_visa_fillables.outline_activities:create_outline_activities_pdf"
+generate-all = "japan_visa_fillables:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

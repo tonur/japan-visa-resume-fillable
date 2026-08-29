@@ -1,3 +1,4 @@
+from . import load_font
 import reportlab
 from reportlab.pdfgen import canvas
 from reportlab.lib import colors
@@ -392,6 +393,5 @@ def create_cv(filename="Working_Holiday_Visa_Resume_Fillable.pdf"):
 
     c.save()
 
-
-if __name__ == "__main__":
+if __name__ == '__main__':
     create_cv()
